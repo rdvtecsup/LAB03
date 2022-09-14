@@ -1,0 +1,30 @@
+*{
+    background-color: beige;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+h2{
+    text-transform: uppercase ;
+    margin: 2cm;
+    text-decoration: underline dashed black;
+}
+#cotizador:hover{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+}
+#cotizador{
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 85px;
+    height: 40px;
+    background: dodgerblue;
+    color: seashell;
+}
+#monto{
+    width: 75px;
+    height: 30px;
+    font-size: 18px;
+}
+

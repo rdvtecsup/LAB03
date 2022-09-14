@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema propuesto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="form.js" ></script>
+</head>
+<body>
+    <h2>Casa de cambio</h2>
+    <form class="formulario">
+        <p>Seleccionar moneda a cambiar:</p>
+        <input type="radio" name="cambio" id="dolar">Dólar
+        <input type="radio" name="cambio" id="euro">Euro
+        <p>Ingrese monto:</p>
+        <input type="number" id="monto" min="1" max="100000">
+        <br>
+        <br>
+        <input type="button" id="cotizador" value="cotizar" onclick="conversor()">
+    </form>
+
+</body>
+</html>
